@@ -1,0 +1,45 @@
+Q.1 --------------------->
+A node is represented by the following class: class Node {
+int data;
+Node left;
+Node right;
+Node(int data) {
+this.data = data;
+this.left = null;
+this.right = null;
+}
+}
+Output--------->
+Nodes at distance 2: 4 5 6
+
+
+Q.2 --------------------->
+The Bitcoin rate is available as a public REST API that gives response in json format here:
+Write a program to make a http request to https://api.coingecko.com/api/v3/simple/price?
+ids=bitcoin&vs_currencies=usd,inr,eur and print the bit-coin rate in INR in words.
+Eg: if it is 7823123
+print as Seventy Eight Lakh Twenty three Thousand One Hundred and Twenty Three
+
+Output--------->
+Bitcoin price in INR: 7023422
+In words: Seventy  Lakh Twenty Three Thousand Four Hundred Twenty Two
+
+
+Q.3 --------------------->
+Given a matrix of characters representing a place on Earth, where the value 'T' indicates the
+presence of a Tree at that location and 'O' represents there is no tree at that point. An orchard is
+a region with tress connected vertically, horizontally, or diagonally. The size of the orchard is the
+total number of connected trees. Write a method to compute the sizes of all orchards in the
+matrix.
+Example input:-
+[
+['O','T','O','O'],
+['O','T','O','T'],
+['T','T','O','T'],
+['O','T','O','T']
+]
+Note: Input can be in the code itself (it doesn't have to be supplied at runtime)
+Output: 5, 3
+
+Output--------->
+Orchard sizes: 5 3
